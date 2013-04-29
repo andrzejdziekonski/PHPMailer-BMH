@@ -1,0 +1,29 @@
+{
+    "name": "instaclick/bounce-mail-handler",
+    "type": "library",
+    "description": "Bounce Mail Handler",
+    "keywords": ["bounce", "mail", "email"],
+    "homepage": "http://instaclick.com/torontotechjobs/",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Andy Prevost",
+            "email": "andy.prevost@worxteam.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Anthon Pang",
+            "email": "apang@softwaredevelopment.ca",
+            "role": "Fork Maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "ext-imap": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "BounceMailHandler": "lib/"
+       }
+    }
+}
